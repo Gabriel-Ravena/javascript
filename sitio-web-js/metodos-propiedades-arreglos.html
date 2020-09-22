@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+            <Script>
+
+                var amigos = ["polaco","Anii","lore","juan","beto"];
+                //document.write("Cantidad de amigos que tenes: " + amigos.length)
+                //Agregar elementos a la lista
+                amigos[amigos.length] = "Joan";
+                amigos[amigos.length] = "Noelia";
+                document.write("Cantidad actualizada de amigos en el arreglo: " + amigos.length)
+                document.write(" " + amigos);
+                //Otra manera de agregar elementos a la lista
+                amigos.push("otra Noelia", "Ximena" , "Cristian", "Gabi");
+                document.write("Nuevos Amigos " + amigos.length)
+                document.write("" + amigos)
+                amigos.pop(amigos.length)
+                document.write(amigos);
+
+
+            </Script>
+    </body>
+</html>
